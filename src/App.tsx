@@ -6,7 +6,7 @@ import About from './components/About';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/test-router/'>
       <div>
         <nav>
           <Link to="/">Home</Link>
